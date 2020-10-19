@@ -1,0 +1,25 @@
+#herobox{
+  height: 60vh;
+  min-height: 50vh;
+  background-image: url(../img/slide-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bhero{
+  border-radius: 25px;
+  border: 3px solid violet;
+  font-family: raleway;
+
+}
+#bhero:hover{
+  border: 3px solid #03bed1;
+  border-color: #03bed1;
+}
+.bg-transparent{
+  background-color: #00000061 !important;
+}
+#ribbon{
+  background-color: rgba(238, 130, 238, 0.26);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(208, 208, 208, 0.5) 25px, rgba(208, 208, 208, 0.5)40px);
+}
