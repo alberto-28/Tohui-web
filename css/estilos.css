@@ -30,3 +30,33 @@
   margin-right: auto;
   margin-left: auto;
 }
+#btnslide1{
+  background-color: violet;
+  border-radius: 25px;
+  border: 0px;
+  font-size: medium;
+  font-weight: bold;
+}
+#btnslide1:hover{
+  background-color: #03bed1;
+}
+#btnslide2{
+  background-color: #03bed1;
+  border-radius: 25px;
+  border: 0px;
+  font-size: medium;
+  font-weight: bold;
+}
+#btnslide2:hover{
+  background-color: violet;
+}
+#btnslide3{
+  background-color: violet;
+  border-radius: 25px;
+  border: 0px;
+  font-size: medium;
+  font-weight: bold;
+}
+#btnslide3:hover{
+  background-color: #03bed1;
+}
