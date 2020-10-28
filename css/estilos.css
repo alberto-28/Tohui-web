@@ -84,3 +84,29 @@
   background-color: transparent;
   color: black;
 }
+.custom-shape-divider-bottom-1603904470 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+html {
+  box-sizing: border-box;
+}
+*,*::before,*::after {
+  box-sizing: inherit;
+}
+
+.wave-container {
+  position: relative;
+  background: #ee83ed;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+.wave-container > svg {
+  display: block;
+}
