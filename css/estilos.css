@@ -68,6 +68,19 @@
   font-weight: bold;
 }
 .Text_slide{
-  font-family: open sans;
+  font-family: open sans,  Sans-serif;
   font-weight: 400;
+}
+#btn_info{
+  background-color: #03bed1;
+  border-radius: 25px;
+  border: 3px solid #03bed1;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#btn_info:hover{
+  border-color: violet;
+  background-color: transparent;
+  color: black;
 }
