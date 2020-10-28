@@ -60,3 +60,14 @@
 #btnslide3:hover{
   background-color: #03bed1;
 }
+.carousel-caption{
+  bottom: 25%;
+}
+.Tittle_slide{
+  font-family: Raleway;
+  font-weight: bold;
+}
+.Text_slide{
+  font-family: open sans;
+  font-weight: 400;
+}
