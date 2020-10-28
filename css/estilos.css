@@ -110,3 +110,6 @@ html {
 .wave-container > svg {
   display: block;
 }
+.icon{
+  width: 50px;
+}
