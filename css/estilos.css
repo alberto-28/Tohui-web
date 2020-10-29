@@ -111,5 +111,11 @@ html {
   display: block;
 }
 .icon{
-  width: 50px;
+  font-size: 22px;
+  color:#03bed1;
+  margin: 5px;
+}
+
+.icon:hover{
+  color: #ee83ed;
 }
