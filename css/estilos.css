@@ -1,7 +1,10 @@
 #herobox{
   height: 60vh;
   min-height: 50vh;
-  background-image: url(../img/slide-03.jpg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)
+  ), url(../img/slide-03.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -84,38 +87,34 @@
   background-color: transparent;
   color: black;
 }
-.custom-shape-divider-bottom-1603904470 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-html {
-  box-sizing: border-box;
-}
-*,*::before,*::after {
-  box-sizing: inherit;
-}
 
-.wave-container {
-  position: relative;
-  background: #ee83ed;
-  color: #FFF;
-  text-align: center;
-  overflow: hidden;
-}
-.wave-container > svg {
-  display: block;
-}
 .icon{
   font-size: 22px;
-  color:#03bed1;
-  margin: 5px;
+  color:#ee83ed;
+  margin: 5px 20px 0px 0px;
+  
 }
 
 .icon:hover{
-  color: #ee83ed;
+  color: #03bed1;
+}
+.icon2{
+  font-size: 31px;
+  color:#ee83ed;
+  margin: 0px 22px 0px 0px;
+}
+.icon2:hover{
+  color:#03bed1
+}
+
+#heroboxB{
+  height: 20vh;
+  min-height: 40vh;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)
+  ), url(../img/Blog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
