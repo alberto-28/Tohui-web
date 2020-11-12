@@ -11,7 +11,7 @@
 }
 #bhero{
   border-radius: 25px;
-  border: 3px solid violet;
+  border: 3px solid #ee83ed;
   font-family: raleway;
 
 }
@@ -23,8 +23,8 @@
   background-color: #00000061 !important;
 }
 #ribbon{
-  background-color: rgba(238, 130, 238, 0.26);
-  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(208, 208, 208, 0.5) 25px, rgba(208, 208, 208, 0.5)40px);
+  background-color: rgba(255, 200, 255, 0.26);
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(245, 181, 245, 0.452) 25px, rgba(250, 158, 238, 0.404)40px);
 }
 .container_caption {
   width: 100%;
@@ -34,7 +34,7 @@
   margin-left: auto;
 }
 #btnslide1{
-  background-color: violet;
+  background-color: #ee83ed;
   border-radius: 25px;
   border: 0px;
   font-size: medium;
@@ -51,10 +51,10 @@
   font-weight: bold;
 }
 #btnslide2:hover{
-  background-color: violet;
+  background-color: #ee83ed;
 }
 #btnslide3{
-  background-color: violet;
+  background-color: #ee83ed;
   border-radius: 25px;
   border: 0px;
   font-size: medium;
@@ -117,4 +117,37 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+.text1{
+  color: azure;
+}
+.text1:hover{
+  color: #ee83ed;
+  text-decoration: none;
+}
+
+#menu1:hover{
+  color: #ee83ed;
+  text-decoration: none;
+  
+}
+#menu2:hover{
+  color: #ee83ed;
+  text-decoration: none;
+}
+#menu3:hover{
+  color: #ee83ed;
+  text-decoration: none;
+}
+#menu4:hover{
+  color: #ee83ed;
+  text-decoration: none;
+}
+.dropdown-item:hover{
+  color: #ee83ed;
+  text-decoration: none;
+}
+#menu5:hover{
+  color: #ee83ed;
+  text-decoration: none;
 }
