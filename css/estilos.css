@@ -109,6 +109,17 @@
 
 #heroboxB{
   height: 20vh;
+  min-height: 40vh;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.71)
+  ), url(../img/Blog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#heroboxBB{
+  height: 20vh;
   min-height: 60vh;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.71),
