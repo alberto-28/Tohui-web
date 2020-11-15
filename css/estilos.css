@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Tangerine);
 #herobox{
   height: 60vh;
   min-height: 50vh;
@@ -11,7 +12,7 @@
 }
 #bhero{
   border-radius: 25px;
-  border: 3px solid #ee83ed;
+  border: 3px solid #ffade3;
   font-family: raleway;
 
 }
@@ -34,7 +35,7 @@
   margin-left: auto;
 }
 #btnslide1{
-  background-color: #ee83ed;
+  background-color: #ffade3;
   border-radius: 25px;
   border: 0px;
   font-size: medium;
@@ -51,10 +52,10 @@
   font-weight: bold;
 }
 #btnslide2:hover{
-  background-color: #ee83ed;
+  background-color: #ffade3;
 }
 #btnslide3{
-  background-color: #ee83ed;
+  background-color: #ffade3;
   border-radius: 25px;
   border: 0px;
   font-size: medium;
@@ -83,14 +84,14 @@
   margin-top: 15px;
 }
 #btn_info:hover{
-  border-color: violet;
+  border-color: ffade3;
   background-color: transparent;
   color: black;
 }
 
 .icon{
   font-size: 22px;
-  color:#ee83ed;
+  color:#ffade3;
   margin: 5px 20px 0px 0px;
   
 }
@@ -100,7 +101,7 @@
 }
 .icon2{
   font-size: 31px;
-  color:#ee83ed;
+  color:#ffade3;
   margin: 0px 22px 0px 0px;
 }
 .icon2:hover{
@@ -133,32 +134,37 @@
   color: azure;
 }
 .text1:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
 }
 
 #menu1:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
   
 }
 #menu2:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
 }
 #menu3:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
 }
 #menu4:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
 }
 .dropdown-item:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
 }
 #menu5:hover{
-  color: #ee83ed;
+  color: #ffade3;
   text-decoration: none;
+}
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
 }
