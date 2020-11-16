@@ -177,3 +177,16 @@
 .form-group {
   margin-bottom: 1rem;
 }
+#btn_project{
+  background-color: #ffade3;
+  border-radius: 25px;
+  border: 2px solid #ffade3;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#btn_project:hover{
+  border-color: #ffade3 ;
+  background-color: transparent;
+  color: black;
+}
