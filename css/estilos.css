@@ -82,6 +82,7 @@
   font-size: medium;
   font-weight: bold;
   margin-top: 15px;
+  color: white;
 }
 #btn_info:hover{
   border-color: ffade3;
@@ -110,7 +111,7 @@
 
 #heroboxB{
   height: 20vh;
-  min-height: 40vh;
+  min-height: 45vh;
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.71),
     rgba(0, 0, 0, 0.71)
@@ -189,4 +190,23 @@
   border-color: #ffade3 ;
   background-color: transparent;
   color: black;
+}
+.btn.btn-rounded {
+  border-radius: 50%; height: 50px; width: 50px;
+}
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
 }
