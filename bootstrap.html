@@ -53,8 +53,71 @@
           <a  id="menu5" class="nav-link"  href="#" >¿Necesitas ayuda?</a>
         </li>
         <li class="nav-item">
-        <a class="nav-link  pl-4 pr-4 text-white" href="#" style= "border-radius: 25px; background-color: #ffade3" onmouseover="this.style.background='#00bfd2';" onmouseout="this.style.background='violet';">Contacto</a>
+        <a class="nav-link  pl-4 pr-4 text-white" data-toggle="modal" data-target=".bd-example-modal-lg" style= "border-radius: 25px; background-color: #ffade3" onmouseover="this.style.background='#00bfd2';" onmouseout="this.style.background='#ffade3';">Contacto</a>
         </li>
+        <!---Empieza Modal de contacto -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content p-2 align-items-end">
+              <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <div class="container-fluid">
+                <div class="row d-flex justify-content-center align-items-center">
+                  <div class="col-md-6 justify-content-center ">
+                    <div>
+                      <lottie-player id="anim" class="d-none d-md-block" src="animations/email.json"  background="transparent"  speed="1"  style="width: 380px; height: 380px;"  loop  autoplay></lottie-player>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h1 class="pb-2 bl-2 " style="font-family: Raleway; font-weight: bold;">Contactate con <br> nosotros</h1>
+                    <p class=" text-muted mb-4 " style="font-family: open sans; font-weight: 400;">Si tienes alguna pregunta o deseas ampliar tu información, ponte en contacto con nosotros.</p>
+                   <!---Nombre -->
+                    <div class="input-group  mb-4">
+                      <div class="input-group-prepend">
+                          <span class="input-group-text bg-white px-4 border-md border-right-0">
+                              <i class="fa fa-user text-muted"></i>
+                          </span>
+                      </div>
+                      <input id="firstName" type="text" name="firstname" placeholder="Nombre" class="form-control bg-white border-left-0 border-md">
+                  </div>
+                  <!---Nombre-->
+        
+                  <!---Email -->
+                  <div class="input-group  mb-4">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                            <i class="fa fa-envelope text-muted"></i>
+                        </span>
+                    </div>
+                    <input id="email" type="email" name="email" placeholder="Correo electrónico" class="form-control bg-white border-left-0 border-md">
+                </div>
+                <!---Email -->
+        
+                <!---Message -->
+                <div class="input-group  mb-4">
+                  <div class="input-group">
+                      <textarea class="form-control" placeholder="Escribe aqui tu mensaje o sugerencia" aria-label="With textarea"></textarea>
+                    </div>
+              </div>
+              <!---Message -->
+        
+        
+              <!---Submit -->
+              <div class="form-group col-lg-12 mx-auto mb-0 pb-2">
+                <a href="#" class="btn  btn-block py-2" style="border-radius: 25px; background-color: #ffade3; color: white;">
+                    <span class="font-weight-bold ">Enviar</span>
+                </a>
+            </div>
+              <!---Submit -->
+        
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         <!---Termina Modal de contacto -->
       </ul>
     </div>
 </nav>
@@ -502,6 +565,7 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/all.js"></script>
+<script src="js/lottie-player.js"></script>
 <script src="js/Mijs.js"></script>
 </body>
 </html>
