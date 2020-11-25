@@ -12,46 +12,106 @@
 <!---------------------------EMPIEZA CONTENIDO--------------------------->
 <!--**Barra de navegacion**-->
 <nav class="navbar navbar-expand-md navbar-light" style="background-color: transparent;">
-    <a class="navbar-brand" href="#">
-        <img src="img/Logo_Tohuí.svg" height="50" alt="" loading="lazy">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item ">
-          <a  id="menu1" class="nav-link text-dark  pl-4 pr-4" href="bootstrap.html" style="border-radius: 25px;  background-color:rgba(212, 212, 212, 0.205); " >Inicio <span  class="sr-only" >(current)</span></a>
-        </li>
-        <li class="nav-item" >
-          <a id="menu2" class="nav-link" href="Blog.html" >Blog</a>
-        </li>
-        <li class="nav-item">
-          <a id="menu3" class="nav-link" href="#">Quienes somos</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a id="menu4" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Servicios
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Orientación psicologica infantil</a>
-            <a class="dropdown-item" href="#">Orientación psicologica para <br> jovenes y adultos</a>
-            <a class="dropdown-item" href="#">Estimulacion temprana</a>
-            <a class="dropdown-item" href="#">Clases de regularización</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Talleres</a>
-            <a class="dropdown-item" href="#">Ludoteca</a>
+  <a class="navbar-brand" href="bootstrap.html">
+      <img src="img/Logo_Tohuí.svg" height="50" alt="" loading="lazy">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+        <a  class="nav-link  pl-4 pr-4" href="bootstrap.html" style="border-radius: 25px;  background-color:rgba(212, 212, 212, 0.205);" >Inicio <span  class="sr-only" >(current)</span></a>
+      </li>
+      <li class="nav-item">
+      <a id="menu2" class="nav-link" href="Blog.html" >Blog</a>
+      </li>
+      <li class="nav-item">
+        <a id="menu3" class="nav-link" href="#">Quienes somos</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a id="menu4" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Servicios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Orientación psicologica infantil</a>
+          <a class="dropdown-item" href="#">Orientación psicologica para <br> jovenes y adultos</a>
+          <a class="dropdown-item" href="#">Estimulacion temprana</a>
+          <a class="dropdown-item" href="#">Clases de regularización</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Talleres</a>
+          <a class="dropdown-item" href="#">Ludoteca</a>
+        </div>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link  pl-4 pr-4 text-white" data-toggle="modal" data-target=".bd-example-modal-lg" style= "border-radius: 25px; background-color: #ffade3" onmouseover="this.style.background='#00bfd2';" onmouseout="this.style.background='#ffade3';">Contacto</a>
+      </li>
+      <!---Empieza Modal de contacto -->
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content p-2 align-items-end">
+            <button  type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="container-fluid">
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-md-6 justify-content-center ">
+                  <div>
+                    <lottie-player id="anim" class="d-none d-md-block" src="animations/email.json"  background="transparent"  speed="1"  style="width: 380px; height: 380px;"  loop  autoplay></lottie-player>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <h1 class="pb-2 bl-2 " style="font-family: Raleway; font-weight: bold;">Contactate con <br> nosotros</h1>
+                  <p class=" text-muted mb-4 " style="font-family: open sans; font-weight: 400;">Si tienes alguna pregunta o deseas ampliar tu información, ponte en contacto con nosotros.</p>
+                 <!---Nombre -->
+                  <div class="input-group  mb-4">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text bg-white px-4 border-md border-right-0">
+                            <i class="fa fa-user text-muted"></i>
+                        </span>
+                    </div>
+                    <input id="firstName" type="text" name="firstname" placeholder="Nombre" class="form-control bg-white border-left-0 border-md">
+                </div>
+                <!---Nombre-->
+      
+                <!---Email -->
+                <div class="input-group  mb-4">
+                  <div class="input-group-prepend">
+                      <span class="input-group-text bg-white px-4 border-md border-right-0">
+                          <i class="fa fa-envelope text-muted"></i>
+                      </span>
+                  </div>
+                  <input id="email" type="email" name="email" placeholder="Correo electrónico" class="form-control bg-white border-left-0 border-md">
+              </div>
+              <!---Email -->
+      
+              <!---Message -->
+              <div class="input-group  mb-4">
+                <div class="input-group">
+                    <textarea class="form-control" placeholder="Escribe aqui tu mensaje o sugerencia" aria-label="With textarea"></textarea>
+                  </div>
+            </div>
+            <!---Message -->
+      
+      
+            <!---Submit -->
+            <div class="form-group col-lg-12 mx-auto mb-0 pb-2">
+              <a href="#" class="btn  btn-block py-2" style="border-radius: 25px; background-color: #ffade3; color: white;">
+                  <span class="font-weight-bold ">Enviar</span>
+              </a>
           </div>
-        </li>
-        <li class="nav-item" class="text1">
-          <a  id="menu5" class="nav-link"  href="#" >¿Necesitas ayuda?</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link  pl-4 pr-4 text-white" href="#" style= "border-radius: 25px; background-color: violet" onmouseover="this.style.background='#00bfd2';" onmouseout="this.style.background='violet';">Contacto</a>
-        </li>
-      </ul>
-    </div>
+            <!---Submit -->
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!---Termina Modal de contacto -->
+    </ul>
+  </div>
 </nav>
 <!--**Termina Barra de navegacion**-->
 
@@ -119,8 +179,8 @@
     <div class="col-md-6 order-2 order-sm-1">
       <br>
       <br>
-      <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-        <div class="blockquote-custom-icon  shadow-sm" style="background-color: #03bed1;"><i class="fa fa-quote-left text-white"></i></div>
+      <blockquote class="blockquote blockquote-custom p-5  rounded">
+        <div class="blockquote-custom-icon shadow-sm" style="background-color: #03bed1;"><i class="fa fa-quote-left text-white"></i></div>
         <p class="mb-0 mt-2 font-italic">" <strong>Tohuí</strong> es un centro de estimulación temprana y orientación psicológica que abrió sus puertas en el mes de julio del 2020 en el municipio de Hidalgo, Michoacán. Esta encargado de brindar los servicios de atención psicológica, estimulación temprana, talleres educativos, clases de regularización para educación prescolar y primaria, además cuenta con una estancia infantil donde los niños aprenden jugando."</p>
         <footer class="blockquote-footer pt-4 mt-4 border-top">Psic. Alma Vilchis
             <cite title="Source Title">Directora de Tohuí</cite>
@@ -158,44 +218,44 @@
     <div class="col-md-6">
       <div class="row text-center">
         <div class="col-md-6">
-          <div class=" py-3 px-2"><img src="https://d19m59y37dris4.cloudfront.net/university/1-1-1/img/teacher-7.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <div class=" py-3 px-2"><img src="img/Beto2.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
             <h5 class="mb-0" style="font-family: Raleway; font-weight: bold;">Alberto Garduño</h5><span class="small text-uppercase text-muted">Ingeniero en tecnológias</span>
             <ul class="social mb-0 list-inline mt-3">
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.twitter.com/" class="social-link"><i class="fab fa-twitter" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         </div>
         <div class="col-md-6">
-          <div class="py-3 px-2"><img src="https://d19m59y37dris4.cloudfront.net/university/1-1-1/img/teacher-4.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+          <div class="py-3 px-2"><img src="img/andy.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
             <h5 class="mb-0" style="font-family: Raleway; font-weight: bold;">Andrea Acosta</h5><span class="small text-uppercase text-muted">Ingeriero en tecnológias</span>
             <ul class="social mb-0 list-inline mt-3">
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.twitter.com/" class="social-link"><i class="fab fa-twitter" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-md-6">
-          <div class="py-3 px-2"><img src="https://d19m59y37dris4.cloudfront.net/university/1-1-1/img/teacher-7.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail ">
+          <div class="py-3 px-2"><img src="img/Chente.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail ">
             <h5 class="mb-0" style="font-family: Raleway; font-weight: bold;">Vicente Saucedo</h5><span class="small text-uppercase text-muted">Ingeniero en tecnologias</span>
             <ul class="social mb-0 list-inline mt-3">
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.twitter.com/" class="social-link"><i class="fab fa-twitter" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         </div>
         <div class="col-md-6">
-          <div class="py-3 px-2"><img src="https://d19m59y37dris4.cloudfront.net/university/1-1-1/img/teacher-7.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail">
+          <div class="py-3 px-2"><img src="img/Fredy.jpeg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail">
             <h5 class="mb-0" style="font-family: Raleway; font-weight: bold;">Alfredo Medina</h5><span class="small text-uppercase text-muted">Ingeniero en tecnologias</span>
             <ul class="social mb-0 list-inline mt-3">
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-twitter" ></i></a></li>
-              <li class="list-inline-item"><a href="#" class="social-link"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/" class="social-link"><i class="fab fa-facebook-f" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.twitter.com/" class="social-link"><i class="fab fa-twitter" ></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         </div>
